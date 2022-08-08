@@ -11,16 +11,12 @@ function getTeamHTLM(team) {
 }
 
 function displayTeams(teams) {
-  console.warn("display", teams);
-
   // var teamsHTML = "";
   // teams.forEach(function (team) {
   //   teamsHTML += getTeamHTLM(team);
   // });
 
-  var r = teams.map(function (team) {
-    return getTeamHTLM(team);
-  });
+  var teamsHTML = teams.map(getTeamHTLM);
 
   document.querySelector("table tbody").innerHTML = teamsHTML.join(";");
 }
