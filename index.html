@@ -8,31 +8,57 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header><h1>TN</h1></header>
-    <div></div>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Groups</th>
+    <h1>Teams N</h1>
 
-          <th>Members</th>
+    
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Group</th>
+            <th>Members</th>
+            <th>Project Name</th>
+            <th>Project URL</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+          <tr>
+            <td>
+              <input
+                type="text"
+                placeholder="Enter Group"
+                name="promotion"
+                required
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                placeholder="Enter Members"
+                name="members"
+                required
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                placeholder="Enter Name"
+                name="name"
+                required
+              />
+            </td>
+            <td>
+              <input type="text" placeholder="Enter URL" name="url" required />
+            </td>
+            <td>
+              <button type="submit">💾</button>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </form>
 
-          <th>Project Name</th>
-
-          <th>Project URL</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>won8</td>
-          <td>noi</td>
-          <td>CV</td>
-          <td><a href="https://github.com/nmatei/teams-networking">open</a></td>
-          <td>x e</td>
-        </tr>
-      </tbody>
-    </table>
     <script src="index.js"></script>
   </body>
 </html>
