@@ -8,3 +8,7 @@ table {
 #editForm tfoot input[type="text"] {
   width: 100%;
 }
+#list {
+  border-collapse: collapse;
+  width: 100%;
+}
