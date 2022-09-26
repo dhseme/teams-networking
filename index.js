@@ -59,7 +59,7 @@ function removeTeamRequest(id) {
 }
 
 function updateTeamRequest(team) {
-  fetch("http://localhost:3000/teams-json/update", {
+  return fetch("http://localhost:3000/teams-json/update", {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
